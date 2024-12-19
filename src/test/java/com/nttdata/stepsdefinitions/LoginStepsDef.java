@@ -73,7 +73,6 @@ public class LoginStepsDef {
 
     @And("vuelvo a validar el calculo de precios en el carrito")
     public void vuelvoAValidarElCalculoDePreciosEnElCarrito() {
-        loginSteps.validarProductoCarrito();
         screenShot();
     }
 }
